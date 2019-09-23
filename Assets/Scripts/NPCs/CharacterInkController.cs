@@ -2,13 +2,14 @@
 using UnityEngine.UI;
 using System.Collections;
 using Ink.Runtime;
+using UnityEngine.Events;
 
 // This is a super bare bones example of how to play and display a ink story in Unity.
 public class CharacterInkController : MonoBehaviour {
 	
 	[SerializeField]
 	private TextAsset inkJSONAsset;
-	public Story story;
+	public Story story;	
 
     [SerializeField]
     private VerticalLayoutGroup buttonLayoutGroup;
@@ -20,6 +21,10 @@ public class CharacterInkController : MonoBehaviour {
 	private Text textPrefab;
 	[SerializeField]
 	private Button buttonPrefab;
+
+	// Callbacks
+	[SerializeField]
+	private UnityEvent startStoryEvent;
 
     private PlayerController playerController;
 
@@ -33,6 +38,11 @@ public class CharacterInkController : MonoBehaviour {
 	public void StartStory () {
 		story = new Story (inkJSONAsset.text);
 		RefreshView();
+
+		if (startStoryEvent != null)
+		{
+			startStoryEvent.Invoke();
+		}
 	}
 	
 	// This is the main function called every time the story changes. It does a few things:
