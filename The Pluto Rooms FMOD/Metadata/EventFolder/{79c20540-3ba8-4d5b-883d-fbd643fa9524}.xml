@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="EventFolder" id="{79c20540-3ba8-4d5b-883d-fbd643fa9524}">
+		<property name="name">
+			<value>Robot Interaction</value>
+		</property>
+		<relationship name="folder">
+			<destination>{cc37abac-2454-49cf-a36c-fb874a6fb451}</destination>
+		</relationship>
+	</object>
+</objects>
