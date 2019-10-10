@@ -104,7 +104,7 @@
 	<object class="MixerBusPanner" id="{8df992ac-f7ef-475b-a116-569ab71d87a0}" />
 	<object class="SingleSound" id="{9b74021e-edf9-45be-a060-593ae67d5cf3}">
 		<property name="start">
-			<value>0.30000000000000004</value>
+			<value>0.35999999999999965</value>
 		</property>
 		<property name="length">
 			<value>0.55000000000000049</value>
@@ -121,7 +121,7 @@
 	</object>
 	<object class="SingleSound" id="{3b0de34b-59c5-45a4-9920-490106a46190}">
 		<property name="start">
-			<value>0.95000000000000007</value>
+			<value>1.0099999999999996</value>
 		</property>
 		<property name="length">
 			<value>0.30000000000000038</value>
@@ -137,11 +137,8 @@
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{b8df0b64-27b0-44fd-882a-8ec1f4dfd4a3}">
-		<property name="start">
-			<value>4.4408920985006262e-16</value>
-		</property>
 		<property name="length">
-			<value>0.2999999999999996</value>
+			<value>0.35999999999999965</value>
 		</property>
 		<property name="pitch">
 			<value>-3.4000001</value>
@@ -169,7 +166,7 @@
 	</object>
 	<object class="NamedMarker" id="{91143026-1981-4a88-a0e2-01d06527c985}">
 		<property name="position">
-			<value>0.30000000000000004</value>
+			<value>0.35999999999999965</value>
 		</property>
 		<property name="name">
 			<value>Marker A</value>
@@ -183,7 +180,7 @@
 	</object>
 	<object class="TransitionMarker" id="{62df02d9-c5b4-4562-a3b2-72518d891026}">
 		<property name="position">
-			<value>0.85000000000000053</value>
+			<value>0.91000000000000014</value>
 		</property>
 		<relationship name="timeline">
 			<destination>{83231356-2c19-412e-af39-4d0e302ecf8d}</destination>
@@ -197,7 +194,7 @@
 	</object>
 	<object class="NamedMarker" id="{cc08098c-9f39-4c22-9cc5-9d9c4253755b}">
 		<property name="position">
-			<value>0.95000000000000007</value>
+			<value>1.0099999999999996</value>
 		</property>
 		<property name="name">
 			<value>Marker B</value>
@@ -211,7 +208,7 @@
 	</object>
 	<object class="TransitionRegion" id="{94e710d8-0fdc-4409-8c60-b6a3407d4e7d}">
 		<property name="position">
-			<value>0.30000000000000004</value>
+			<value>0.35999999999999965</value>
 		</property>
 		<property name="length">
 			<value>0.55000000000000049</value>
