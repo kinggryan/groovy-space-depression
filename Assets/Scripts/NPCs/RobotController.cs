@@ -21,9 +21,7 @@ public class RobotController : MonoBehaviour
     {
         // Because unity can't serialize a dictionary, we are putting the relevant state in the StateInfo itself
         public State state;
-        public FMODUnity.StudioEventEmitter enterSoundEmitter;
-        public FMODUnity.StudioEventEmitter exitSoundEmitter;
-        public FMODUnity.StudioEventEmitter loopingSoundEmitter;
+        public FMODUnity.StudioEventEmitter soundEmitter;
     }
 
     /** Public Vars */
@@ -72,28 +70,18 @@ public class RobotController : MonoBehaviour
     void DidEnterState(State state)
     {
         var info = GetStateInfoForState(state);
-        if (info.enterSoundEmitter != null)
+        if (info.soundEmitter != null)
         {
-            info.enterSoundEmitter.Play();
-            info.enterSoundEmitter.SetParameter("TurnOff", 1);
-        }
-        if (info.loopingSoundEmitter != null)
-        {
-            // TODO: Play the looping sound emitter
+            info.soundEmitter.Play();
         }
     }
 
     void DidExitState(State state)
     {
         var info = GetStateInfoForState(state);
-        if (info.exitSoundEmitter != null)
+        if (info.soundEmitter != null)
         {
-            info.exitSoundEmitter.Play();
-            info.exitSoundEmitter.SetParameter("TurnOff", 1);
-        }
-        if (info.loopingSoundEmitter != null)
-        {
-            // TODO: Stop the looping sound emitter
+            info.soundEmitter.SetParameter("TurnOff", 1);
         }
     }
 
