@@ -492,6 +492,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 696df9843216043a1b9aa8020eae7d4a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  stateInfos:
+  - state: 0
+    enterSoundEmitter: {fileID: 0}
+    exitSoundEmitter: {fileID: 0}
+    loopingSoundEmitter: {fileID: 0}
+  - state: 1
+    enterSoundEmitter: {fileID: 0}
+    exitSoundEmitter: {fileID: 0}
+    loopingSoundEmitter: {fileID: 0}
   lookAtPlayerLerpSpeed: 6
 --- !u!1 &827873456
 GameObject:
@@ -1663,6 +1672,7 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
+  roboVoice: {fileID: 0}
 --- !u!135 &2119639812
 SphereCollider:
   m_ObjectHideFlags: 0
