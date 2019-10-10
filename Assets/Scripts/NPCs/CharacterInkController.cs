@@ -53,14 +53,7 @@ public class CharacterInkController : MonoBehaviour {
 		RemoveChildren ();
 		
 		// Read all the content until we can't continue any more
-		while (story.canContinue) {
-			// Continue gets the next line of the story
-			string text = story.Continue ();
-			// This removes any white space from the text.
-			text = text.Trim();
-			// Display the text on screen!
-			CreateContentView(text);
-		}
+		ShowNextNPCDialogueLine();
 
 		// Display all the choices, if there are any!
 		if(story.currentChoices.Count > 0) {
@@ -80,6 +73,19 @@ public class CharacterInkController : MonoBehaviour {
 				RemoveChildren();
                 playerController.ExitStoryMode();
 			});
+		}
+	}
+
+	void ShowNextNPCDialogueLine()
+	{
+		// TODO: show each line manually, proceeding via player input
+		while (story.canContinue) {
+			// Continue gets the next line of the story
+			string text = story.Continue ();
+			// This removes any white space from the text.
+			text = text.Trim();
+			// Display the text on screen!
+			CreateContentView(text);
 		}
 	}
 
