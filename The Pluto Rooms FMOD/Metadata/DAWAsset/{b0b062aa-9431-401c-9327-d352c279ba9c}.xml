@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="DAWAsset" id="{b0b062aa-9431-401c-9327-d352c279ba9c}">
+		<property name="assetPath">
+			<value>The Pluto Rooms REAPER.rpp.link/Interact.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.56854875283446715</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{8d852fc7-13f7-4139-82e6-3d9d3418eac3}</destination>
+		</relationship>
+		<relationship name="project">
+			<destination>{9f63d57d-ad35-486e-9b60-edd4c155b337}</destination>
+		</relationship>
+	</object>
+</objects>

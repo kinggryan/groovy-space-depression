@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="DAWAsset" id="{96fb3799-6447-4412-bec0-dd5d2743bbfb}">
+		<property name="assetPath">
+			<value>The Pluto Rooms REAPER.rpp.link/Robo Voice 2.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>3.1323809523809523</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{8d852fc7-13f7-4139-82e6-3d9d3418eac3}</destination>
+		</relationship>
+		<relationship name="project">
+			<destination>{9f63d57d-ad35-486e-9b60-edd4c155b337}</destination>
+		</relationship>
+	</object>
+</objects>

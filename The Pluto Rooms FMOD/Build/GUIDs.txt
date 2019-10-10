@@ -1,0 +1,5 @@
+{c354939e-cc84-4878-a066-58c6a41f4e50} bank:/Master
+{5b49b34a-bdff-043a-262f-d23855ec48c8} bank:/Master.strings
+{c705a1b1-d40c-4d61-8146-4b606dbd0694} bus:/
+{af36ea5c-a19d-41d9-a2b7-8ca015b24898} bus:/Reverb
+{9c4e12e9-53cf-498b-adaf-9928953fff1d} event:/Robot Interaction/Robot Interaction
