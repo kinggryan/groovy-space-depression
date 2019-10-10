@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="ParameterPreset" id="{38d6eea4-414e-4626-b269-9cb0e99bf5ff}">
+		<property name="name">
+			<value>TurnOff</value>
+		</property>
+		<relationship name="folder">
+			<destination>{1bcd267e-2cd6-44b2-a32d-a056de889fff}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{9693d608-594b-4b6b-abff-5db99cf43c66}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{9693d608-594b-4b6b-abff-5db99cf43c66}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

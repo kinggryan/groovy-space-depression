@@ -7,7 +7,7 @@
 [LOG] OutputWASAPI::init                       : Output buffer size: 4096 samples, latency: 0.00ms, period: 10.00ms, DSP buffer: 1024 * 4
 [LOG] Thread::initThread                       : Init FMOD stream thread. Priority: 2, Stack Size: 98304, Semaphore: No, Sleep Time: 10, Looping: Yes.
 [LOG] Thread::initThread                       : Init FMOD mixer thread. Priority: 3, Stack Size: 81920, Semaphore: No, Sleep Time: 0, Looping: Yes.
-[LOG] AsyncManager::init                       : manager 0000014D3DA06888 isAsync 0 updatePeriod 0.02
+[LOG] AsyncManager::init                       : manager 000001AAC5FB2F38 isAsync 0 updatePeriod 0.02
 [LOG] AsyncManager::init                       : done
 [LOG] PlaybackSystem::init                     : 
 [LOG] Thread::initThread                       : Init FMOD Studio sample load thread. Priority: 0, Stack Size: 98304, Semaphore: No, Sleep Time: 1, Looping: No.
@@ -18,77 +18,10 @@
 [LOG] Manager::readBank                        : fileversion = 121, compatVersion = 119 (oldest = 44, newest = 121)
 [LOG] Manager::readBank                        : fileversion = 121, compatVersion = 119 (oldest = 44, newest = 121)
 [LOG] PlaybackSystem::acquireMasterBus         : Setting master channel group format to 6
-[LOG] Manager::readBank                        : fileversion = 121, compatVersion = 119 (oldest = 44, newest = 121)
-[LOG] PlaybackSystem::acquireMasterBus         : Setting master channel group format to 6
-[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
-[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
-[LOG] SystemI::createSoundInternal             : exinfo->length             = 84800
-[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 3072
-[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000015560BF54C
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFD89C27050
-[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFD89C27020
-[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFD89C27120
-[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFD89C271E0
-[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0000014D3DF2FC88
-[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
-[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
-[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Robo Voice 3', format=2, channels=2, frequency=48000, lengthbytes=21376, lengthpcm=150354, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.257230.
-[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
-[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
-[LOG] SystemI::createSoundInternal             : exinfo->length             = 84800
-[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 3072
-[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000015560BF54C
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFD89C27050
-[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFD89C27020
-[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFD89C27120
-[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFD89C271E0
-[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0000014D3DF2FC88
-[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
-[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
-[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Robo Voice 2', format=2, channels=2, frequency=48000, lengthbytes=29408, lengthpcm=150354, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.275501.
-[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
-[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
-[LOG] SystemI::createSoundInternal             : exinfo->length             = 84800
-[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 3072
-[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000015560BF54C
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFD89C27050
-[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFD89C27020
-[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFD89C27120
-[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFD89C271E0
-[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0000014D3DF2FC88
-[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
-[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
-[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Interact', format=2, channels=2, frequency=48000, lengthbytes=4128, lengthpcm=27290, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.223338.
-[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
-[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
-[LOG] SystemI::createSoundInternal             : exinfo->length             = 84800
-[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 3072
-[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000015560BF54C
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFD89C27050
-[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFD89C27020
-[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFD89C27120
-[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFD89C271E0
-[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0000014D3DF2FC88
-[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
-[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
-[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Robo Voice 1', format=2, channels=2, frequency=48000, lengthbytes=29568, lengthpcm=150354, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.360813.
-[LOG] SoundI::release                          :  (0000014D3DDC0288)
-[LOG] SoundI::release                          :     Interact (0000014D3DBFB308)
-[LOG] SoundI::release                          :  (0000014D3DDC1AF8)
-[LOG] SoundI::release                          :     Robo Voice 1 (0000014D3DBFC348)
-[LOG] SoundI::release                          :  (0000014D3DDC09B8)
-[LOG] SoundI::release                          :     Robo Voice 2 (0000014D3DBFB168)
-[LOG] SoundI::release                          :  (0000014D3DDC1538)
-[LOG] SoundI::release                          :     Robo Voice 3 (0000014D3DBFAE28)
+[LOG] Thread::callback                         : FMOD Studio bank load thread finished.
+[LOG] Thread::callback                         : FMOD Studio sample load thread finished.
+[LOG] LiveUpdate::release                      : 
+[LOG] LiveUpdate::reset                        : Reset connection (reason Disconnected)
+[LOG] Thread::callback                         : FMOD stream thread finished.
+[LOG] Thread::callback                         : FMOD mixer thread finished.
+[LOG] SystemI::close                           : Closed.

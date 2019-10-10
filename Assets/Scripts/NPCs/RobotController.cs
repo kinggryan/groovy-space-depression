@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class RobotController : MonoBehaviour
 {
+   //Stuff Nick added for audio
+    public FMODUnity.StudioEventEmitter roboMove;
+
     // TODO: If this stuff gets complicated, we can do an actual state machine
     // Enum is fine for now
     enum State
@@ -21,6 +24,9 @@ public class RobotController : MonoBehaviour
     public void LookAtPlayer()
     {
         state = State.LookAtPlayer;
+        //play audio when looking at player
+        roboMove.Play();
+        roboMove.SetParameter("TurnOff", 1);
     }
 
     void Update()

@@ -2,4 +2,6 @@
 {5b49b34a-bdff-043a-262f-d23855ec48c8} bank:/Master.strings
 {c705a1b1-d40c-4d61-8146-4b606dbd0694} bus:/
 {af36ea5c-a19d-41d9-a2b7-8ca015b24898} bus:/Reverb
-{9c4e12e9-53cf-498b-adaf-9928953fff1d} event:/Robot Interaction/Robot Interaction
+{51d05de5-0f07-4879-b80b-406822a0d00c} event:/Robot Interaction/Robot move
+{9c4e12e9-53cf-498b-adaf-9928953fff1d} event:/Robot Interaction/Robot speak
+{9693d608-594b-4b6b-abff-5db99cf43c66} parameter:/TurnOff

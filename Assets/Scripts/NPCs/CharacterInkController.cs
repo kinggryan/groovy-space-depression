@@ -28,7 +28,9 @@ public class CharacterInkController : MonoBehaviour {
 
     private PlayerController playerController;
 
-	void Awake () {
+    public FMODUnity.StudioEventEmitter roboVoice;
+
+    void Awake () {
 		// Remove the default message
         playerController = UnityEngine.Object.FindObjectOfType<PlayerController>();
 		RemoveChildren();
@@ -78,6 +80,9 @@ public class CharacterInkController : MonoBehaviour {
 
 	void ShowNextNPCDialogueLine()
 	{
+        //stop any previous dialogue audio, then play a new one
+        roboVoice.Stop();
+        roboVoice.Play();
 		// TODO: show each line manually, proceeding via player input
 		while (story.canContinue) {
 			// Continue gets the next line of the story
@@ -130,5 +135,7 @@ public class CharacterInkController : MonoBehaviour {
 		for (int i = childCount - 1; i >= 0; --i) {
 			GameObject.Destroy (buttonLayoutGroup.transform.GetChild (i).gameObject);
 		}
+        //stop audio at end of conversation
+        roboVoice.Stop();
 	}
 }
